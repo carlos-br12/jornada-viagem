@@ -17,3 +17,8 @@
 body {
   background-color: var(--background-primary-color);
 }
+
+header {
+  background-color: var(--background-terciary-color);
+  color: var(--text-secondary-color);
+}

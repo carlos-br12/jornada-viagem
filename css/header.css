@@ -1,0 +1,86 @@
+header {
+  background-color: var(--background-terciary-color);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.menu-checkbox {
+  display: none;
+}
+
+.menu-hamburg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-hamburg img {
+  width: 32px;
+  height: 32px;
+}
+
+.navegacao {
+  position: absolute;
+  top: 100%;
+  left: 50vw;
+  right: 0;
+  background-color: var(--background-terciary-color);
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+#menuToggle:checked ~ .navegacao {
+  max-height: 300px;
+}
+
+.navegacao ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navegacao li {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navegacao li:last-child {
+  border-bottom: none;
+}
+
+.navegacao a {
+  display: block;
+  padding: 16px 24px;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: var(--menu-text-weight);
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.navegacao a:hover {
+  color: var(--primary-color);
+}

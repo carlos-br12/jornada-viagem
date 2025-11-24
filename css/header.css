@@ -47,7 +47,7 @@ header {
   background-color: var(--background-terciary-color);
   flex-direction: column;
   max-height: 0;
-  overflow: visible;
+  overflow: hidden;
   transition: max-height 0.3s ease;
 }
 
@@ -141,5 +141,6 @@ header {
     font-family: var(--font-primary);
     font-weight: var(--title-weight);
     font-size: 32px;
+    border-bottom: none;
   }
 }

@@ -14,17 +14,19 @@
 .hero-title {
   text-align: center;
   font-size: 1.5rem;
-  margin: 4rem 2rem;
+  padding: 4rem 2rem;
   flex-wrap: wrap;
   color: var(--text-primary-color);
-  font-weight: 400;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 /* tablet */
 @media screen and (min-width: 768px) {
   .hero-title {
     font-size: 2rem;
-    margin: 6rem 4rem;
+    padding: 6rem 4.5rem;
+    line-height: 150%;
   }
 
   .hero-img {
@@ -36,7 +38,7 @@
 @media screen and (min-width: 1024px) {
   .hero-title {
     font-size: 2.5rem;
-    margin: 8rem 6rem;
+    padding: 8rem 6rem;
   }
 
   .hero-img {

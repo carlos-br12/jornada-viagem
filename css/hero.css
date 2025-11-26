@@ -1,0 +1,12 @@
+.hero {
+  width: 100%;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4rem 2rem;
+  flex-wrap: wrap;
+  color: var(--text-primary-color);
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+  .offers {
+    padding: 4rem 4.5rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+}

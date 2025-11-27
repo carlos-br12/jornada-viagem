@@ -17,4 +17,21 @@
 body {
   background-color: var(--background-primary-color);
   font-family: var(--font-primary);
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 1.5rem;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px auto;
 }

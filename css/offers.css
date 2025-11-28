@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
@@ -33,6 +35,28 @@
   margin-top: 24px;
 }
 
+.button {
+  margin: 0 auto;
+  width: 280px;
+  height: 64px;
+  padding: 16px;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+}
+
+/* tablet */
 @media screen and (min-width: 768px) {
   .offers {
     padding: 4rem 4.5rem;
@@ -40,5 +64,29 @@
 
   .section-title h2 {
     font-size: 2rem;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .section-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .button {
+    cursor: pointer;
   }
 }

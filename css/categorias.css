@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  margin-top: 32px;
   margin-bottom: 88px;
 }
 
@@ -47,6 +48,7 @@
 @media screen and (min-width: 768px) {
   .categorias-container {
     gap: 32px;
+    margin-top: 32px;
   }
 
   .pacotes {
@@ -69,6 +71,7 @@
 @media screen and (min-width: 1024px) {
   .categorias-container {
     gap: 32px;
+    margin-top: 64px;
   }
 
   .pacotes {

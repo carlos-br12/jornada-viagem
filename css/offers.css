@@ -110,7 +110,7 @@
 /* desktop */
 @media screen and (min-width: 1024px) {
   .card {
-    width: 588px;
+    width: 490px;
     height: 308px;
   }
 
@@ -120,5 +120,13 @@
 
   .button {
     cursor: pointer;
+  }
+}
+
+/* desktop xl */
+@media screen and (min-width: 1220px) {
+  .card {
+    width: 588px;
+    height: 308px;
   }
 }

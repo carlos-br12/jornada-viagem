@@ -107,8 +107,16 @@
   }
 }
 
-/* desktop */
+/* tablet xl */
 @media screen and (min-width: 1024px) {
+  .card {
+    width: 370px;
+    height: 308px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1324px) {
   .card {
     width: 490px;
     height: 308px;
@@ -124,7 +132,7 @@
 }
 
 /* desktop xl */
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1320px) {
   .card {
     width: 588px;
     height: 308px;

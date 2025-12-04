@@ -92,6 +92,13 @@
   }
 }
 
+/* tablet xl */
+@media screen and (min-width: 1024px) {
+  .item {
+    width: 648px;
+  }
+}
+
 /* desktop */
 @media screen and (min-width: 1024px) {
   .destination {
@@ -115,7 +122,7 @@
 }
 
 /* desktop xl */
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1320px) {
   .item {
     width: 612px;
   }

@@ -100,7 +100,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1324px) {
   .destination {
     padding: 4rem 4.5rem;
   }

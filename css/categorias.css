@@ -67,8 +67,16 @@
   }
 }
 
-/* desktop */
+/* ipad pro */
 @media screen and (min-width: 1024px) {
+  .pacotes {
+    width: 381px;
+    height: 320px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1324px) {
   .categorias-container {
     gap: 32px;
     margin-top: 64px;

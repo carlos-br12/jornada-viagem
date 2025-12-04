@@ -84,15 +84,17 @@
   .Tokyo {
     background-image: url("../img/Tokyo.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .Osaka {
     background-image: url("../img/Osaka.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
-/* tablet xl */
+/* ipad pro */
 @media screen and (min-width: 1024px) {
   .item {
     width: 648px;
@@ -100,7 +102,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1324px) {
   .destination {
     padding: 4rem 4.5rem;
   }

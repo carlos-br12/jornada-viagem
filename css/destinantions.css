@@ -92,7 +92,7 @@
   }
 }
 
-/* tablet xl */
+/* ipad pro */
 @media screen and (min-width: 1024px) {
   .item {
     width: 648px;

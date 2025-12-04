@@ -84,11 +84,13 @@
   .Tokyo {
     background-image: url("../img/Tokyo.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .Osaka {
     background-image: url("../img/Osaka.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

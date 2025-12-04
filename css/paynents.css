@@ -1,3 +1,68 @@
 .paynents {
   padding: 0 3rem;
 }
+
+.img-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 462px;
+  margin-top: 24px;
+  margin-bottom: 88px;
+  width: 100%;
+}
+
+.bag {
+  background: url("../img/malas.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.passport {
+  background: url("../img/passaporte.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.people {
+  background: url("../img/duas-pessoas-mobile.png") no-repeat center;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .bag {
+    background: url("../img/malas-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .passport {
+    background: url("../img/passaport-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .people {
+    background: url("../img/duas-pessoas-tablet.jpg") no-repeat center;
+    background-size: cover;
+    grid-column: span 2;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1020px) {
+  .content-container {
+    display: flex;
+  }
+
+  .content-container {
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .text-content {
+    width: 360px;
+  }
+
+  .img-gallery {
+    width: 790px;
+  }
+}

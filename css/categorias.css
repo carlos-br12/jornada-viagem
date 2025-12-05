@@ -15,7 +15,7 @@
 .pacotes {
   width: 312px;
   height: 220px;
-  padding: 24px 16px;
+  /*padding: 24px 16px;*/
   display: flex;
   flex-direction: column;
   align-items: center;

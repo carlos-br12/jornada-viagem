@@ -20,6 +20,18 @@ body {
   color: var(--text-primary-color);
 }
 
+.header-padrao {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+}
+
+.centro-padrao {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -46,4 +58,25 @@ body {
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px auto;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .centro-padrao {
+    width: 648px;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) {
+  .centro-padrao {
+    width: 936px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1324px) {
+  .centro-padrao {
+    width: 1280px;
+  }
 }

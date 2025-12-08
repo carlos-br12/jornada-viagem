@@ -28,6 +28,45 @@
   grid-column: span 2;
 }
 
+.templo {
+  background: url("../img/templo-japao.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.rua-japao {
+  background: url("../img/rua-japao.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.pessoa-japao {
+  background: url("../img/pessoa-japao.jpg") no-repeat center;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+.button-ver-mais {
+  margin: 20px auto 0 auto;
+  width: 216px;
+  height: 64px;
+  padding: 16px;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-button {
+  text-align: center;
+  margin: 20px 0 50px 0;
+  justify-content: center;
+}
+
 /* tablet */
 @media (min-width: 768px) {
   .bag {
@@ -45,6 +84,27 @@
     background-size: cover;
     grid-column: span 2;
   }
+
+  .templo {
+    background: url("../img/templo-japao-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .rua-japao {
+    background: url("../img/rua-japao-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .pessoa-japao {
+    background: url("../img/pessoa-japao-tablet.jpg") no-repeat center;
+    background-size: cover;
+    grid-column: span 2;
+  }
+
+  .button-ver-mais {
+    margin: 20px auto 0 auto;
+    width: 260px;
+  }
 }
 
 /* desktop */
@@ -59,6 +119,8 @@
   }
 
   .text-content {
+    justify-content: center;
+    align-items: center;
     width: 360px;
   }
 

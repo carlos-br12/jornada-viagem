@@ -1,3 +1,7 @@
+.hero-home {
+  margin-bottom: 88px;
+}
+
 .hero-img {
   max-width: 100%;
   width: 100%;
@@ -20,6 +24,63 @@
   max-width: 100%;
   width: 100%;
   height: 400px;
+}
+
+.hero-img-japao {
+  background-image: url("../img/hero-rodape-japao.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  width: 100%;
+  height: 400px;
+}
+
+.hero-img-pacotes {
+  background-image: url("../img/hero-japao-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  width: 100%;
+  height: 400px;
+}
+
+.container-hero {
+  justify-content: left;
+  align-items: center;
+}
+
+.hero-texto-pacotes {
+  padding: 1rem 2rem;
+  width: 312px;
+}
+
+.section-title-hero {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.barra-container-hero {
+  align-items: left;
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 20px 0;
+}
+
+.text-hero-japao {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  text-align: left;
 }
 
 .hero-title {
@@ -48,6 +109,22 @@
     background-image: url("../img/hero-rodape-tablet.jpg");
     height: 620px;
   }
+
+  .hero-img-japao {
+    background-image: url("../img/hero-radape-japao-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+  }
+
+  .hero-texto-pacotes {
+    padding: 2rem 2rem;
+    width: 512px;
+  }
 }
 
 /* desktop */
@@ -63,5 +140,10 @@
 
   .hero-img2 {
     height: 720px;
+  }
+
+  .hero-texto-pacotes {
+    padding: 2rem 2rem;
+    width: 579px;
   }
 }
